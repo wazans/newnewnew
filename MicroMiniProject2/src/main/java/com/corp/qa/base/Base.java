@@ -21,7 +21,7 @@ public class Base {
 	public  static WebDriver driver;
 	public  static Properties prop;
 	public Base() throws IOException{
-	
+	//wasim
 		prop= new Properties();
 		FileInputStream fis=new FileInputStream("./Configuration\\Config.properties");
 		prop.load(fis);
